@@ -1,0 +1,46 @@
+I have not tested "update_sys_time.py" yet. I have tested convert_to_local_time.py and it works as far as I can tell. We need real world tresting
+
+The .fits image test files I have used are from the Seestar but I need files from other plate solved images for futher testing. 
+
+Environment:
+
+# clone repo with
+
+$ git clone https://github.com/thgnetworks/modern_transit_time
+
+# Create a venv for the repo
+
+$ cd modern_transit_time
+$ python3 -m venv myenv
+In Mac and Linux
+$ source myenv/bin/activate
+
+Make sure the following packages are installed in pip 
+
+$ pip  list
+Package           Version
+----------------- -------------------
+astropy           6.1.0
+astropy-iers-data 0.2024.5.20.0.29.40
+numpy             1.26.4
+packaging         24.0
+pip               24.0
+pyerfa            2.0.1.4
+PyYAML            6.0.1
+
+A note on the fit file Exif data format
+you can see the fields if if you use the following commands
+
+(myenv) $ python
+>>> import datetime
+>>> import sys
+>>> from astropy.io import fits
+>>> from astropy.time import Time
+>>> from astropy.coordinates import Angle
+>>> from astropy.coordinates import SkyCoord
+>>> import astropy.units as u
+>>> 
+>>> hdul = fits.open("test_images/Stacked_136_M 61_10.0s_IRCUT_20240510-220116.fit")
+>>> hdul[0].header['*']
+
+If you get the fields your envornment is good to go for the program.

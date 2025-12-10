@@ -1,0 +1,8 @@
+Get_test_image_files_from_me
+
+
+test_images/
+
+Stacked_136_M 61_10.0s_IRCUT_20240510-220116.fit
+Stacked_5_M 61_10.0s_IRCUT_20240510-211202.fit
+Stacked_2_M 61_10.0s_IRCUT_20240510-210954.fit

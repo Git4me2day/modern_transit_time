@@ -1,0 +1,41 @@
+I may rename is project as or at the least use my domain for GROKLinux.org that I own
+
+Geospatial
+Realtime
+Observatory
+Kit
+
+
+1. Create a flow chart of the process from telescope setup to havinging an updated time on the NTP server
+
+2. Make a list of all the scripts, hardware and software neccessary to complete the task
+
+3. Make a test setup based on the flowchart
+
+4. Make a test doc to verify my testing
+
+5. Create an MTT (Modern Transit Time) image for RPi including an NTP server
+
+
+Preliminary Hardware
+01. Raspberry Pi 4 with Real-Time Clock
+02. Basic Telescope on an Alt mount  (larger apperture for quicker images, maybe a 4" reflector?)
+03. Camera that works with RPi and Telescope
+04. Cables
+05. Power supply
+06. Semi perminent mount or pier
+07. GPS reciever to test date and time functions
+Future Wish list
+08. A automated polaris finder for quick and easy field use.
+09. Dedicated Observotory to house the telescope
+
+Preliminary Setup
+01. Choose sutubale location for pier
+02. Install pier
+03. Install Mount on Pier 
+04. Align mount to Meridian (North and South)
+05. Install Telescope and camera on mount
+06. Install MTT image on RPi
+07. Connect MTT-RPi to camera and power
+08. Connect to MTT-RPi via wireless and take test image
+09. Run tests based on test doc proceedure
